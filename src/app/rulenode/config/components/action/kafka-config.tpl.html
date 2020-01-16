@@ -24,6 +24,12 @@
             <div ng-message="required" translate>tb.rulenode.topic-pattern-required</div>
         </div>
     </md-input-container>
+
+    <md-input-container class="md-block">
+        <label translate>tb.rulenode.key-pattern</label>
+        <input ng-required="false" name="keyPattern" ng-model="configuration.keyPattern"/>
+    </md-input-container>
+
     <md-input-container class="md-block">
         <label translate>tb.rulenode.bootstrap-servers</label>
         <input ng-required="true" name="bootstrapServers" ng-model="configuration.bootstrapServers"/>

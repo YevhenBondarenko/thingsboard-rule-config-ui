@@ -170,6 +170,7 @@ export default function addRuleNodeCoreLocaleEnglish($translateProvider) {
                 "value": "Value",
                 "value-required": "Value is required",
                 "topic-pattern": "Topic pattern",
+                "key-pattern" : "Key pattern",
                 "topic-pattern-required": "Topic pattern is required",
                 "mqtt-topic-pattern-hint": "MQTT topic pattern, use <code>${metaKeyName}</code> to substitute variables from metadata",
                 "bootstrap-servers": "Bootstrap servers",
